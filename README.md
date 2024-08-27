@@ -17,7 +17,9 @@
 </div>
 
 为了确保D强迫G学习期望的分布，我们以提示向量的形式向D提供一些额外的信息。提示($\mathbf{H}$)向D揭示了原始样本缺失的信息，D利用这些信息将注意力集中在特定位置的插补质量上。这个提示确保了G确实根据真实的数据分布来学习生成。
+
 $$\mathbf{H}=\mathbf{B} \odot \mathbf{M}+0.5(\mathbf{1}-\mathbf{B})$$
+
 
 <div align="center">
   <picture>

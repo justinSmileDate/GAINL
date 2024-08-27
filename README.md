@@ -39,7 +39,7 @@ $$\mathbf{H}=\mathbf{B} \odot \mathbf{M}+0.5(\mathbf{1}-\mathbf{B})$$
   - [简介](#简介)
   - [目录](#目录)
   - [安装](#安装)
-    - [使用 pip](#使用-pip)
+    - [使用 git](#使用-git)
     - [训练](#训练)
       - [准备数据](#准备数据)
       - [训练模型](#训练模型)
@@ -47,9 +47,9 @@ $$\mathbf{H}=\mathbf{B} \odot \mathbf{M}+0.5(\mathbf{1}-\mathbf{B})$$
   - [贡献](#贡献)
 
 ## 安装
-### 使用 pip
+### 使用 git
 ```bash
-pip install NFoxHead-llm
+git clone https://github.com/justinSmileDate/GAINL.git
 ```
 
 ### 训练
